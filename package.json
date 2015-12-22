@@ -1,0 +1,30 @@
+{
+  "name": "cc-api-auth-node",
+  "version": "1.0.0",
+  "description": "A (very) basic example of how to login to the API on Clever Cloud",
+  "main": "main.js",
+  "dependencies": {
+    "clever-client": "^0.2.13",
+    "querystring": "^0.2.0",
+    "request": "^2.67.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackYoup/cc-api-auth-node.git"
+  },
+  "author": "Arnaud Lefebvre <a.lefebvre@outlook.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlackYoup/cc-api-auth-node/issues"
+  },
+  "homepage": "https://github.com/BlackYoup/cc-api-auth-node#readme",
+  "engines": {
+    "npm": "^3.0.0",
+    "node": "^5.0.0"
+  }
+}
